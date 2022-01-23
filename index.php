@@ -4,7 +4,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $ch = curl_init();
 
 // set url
-curl_setopt($ch, CURLOPT_URL, "https://api.ipgeolocation.io/ipgeo?apiKey=4b5a37787c784cf19cc89ea7834fefa7&ip=".$ip);
+curl_setopt($ch, CURLOPT_URL, "https://api.ipgeolocation.io/ipgeo?apiKey=4b5a37787c784cf19cc89ea7834fefa7");
 
 //return the transfer as a string
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
